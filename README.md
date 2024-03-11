@@ -1,1 +1,1 @@
-# EduTech Harsh and Naveen
+# EduTech Harsh Singh & Naveen Bisht
