@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const mailSender = require("../utils/mailsender");
+const mailSender = require("../server/utils/mailsender");
 
 const OTPSchema = new mongoose.model({
     email: {
@@ -20,7 +20,7 @@ const OTPSchema = new mongoose.model({
 // Function to send emails
 async function sendVerificationEmail(email, otp) {
     try {
-        const mailResponse = await mailSender(email, "Verification email from Edu-Tech", otp);
+        
         console.log("Email sent successfully", mailResponse);
     }
     catch(error) {
