@@ -28,7 +28,7 @@ function Login() {
         <div>
         <button onClick={
           () => {
-            dispatch(login("pagalharsh312001@gmail.com", "123456", navigate)
+            dispatch(login("bishtnaveen31122002@gmail.com", "123456", navigate)
           )}
         } className="bg-yellow-100 font-semibold mt-4 mb-1 text-richblack-900 px-4 py-2 rounded-md flex">
           <TbCornerDownRightDouble className="text-2xl text-richblack-900 hidden md:block"/>
@@ -37,7 +37,7 @@ function Login() {
       <div>
         <button onClick={
           () => {
-            dispatch(login("harsh.singh312001@gmail.com", "123456", navigate)
+            dispatch(login("naveenbisht3112@gmail.com", "123456", navigate)
           )}
         } className="bg-yellow-100 font-semibold text-richblack-900 px-4 py-2 rounded-md flex">
           <TbCornerDownRightDouble className="text-2xl text-richblack-900 md:block hidden"/>
