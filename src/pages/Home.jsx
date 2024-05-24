@@ -20,8 +20,7 @@ import RatingSlider from '../Components/core/Ratings/RatingSlider';
 
 function Home() {
     const [CatalogPageData, setCatalogPageData] = useState(null);
-    // const categoryID = "6475dbeb49dcc886b5698441";
-    const categoryID = "";
+    const categoryID = "664f91652ea76e7987d76292";
 
     useEffect(() => {
         const fetchCatalogPageData = async () => {

@@ -167,7 +167,7 @@ const CourseDetails = () => {
                                 <p>30-Day Money-Back Guarantee</p>
                             </div>
                             <div className=''>
-                                <p className='my-2 text-xl font-semibold '>This course includes</p>
+                                <p className='my-2 text-xl font-semibold '>Pre-requisites</p>
                                 <div className='flex flex-col gap-1 text-sm text-caribbeangreen-100'>
                                     {
                                         JSON.parse(courseDetail?.instructions).map((item,index) => (
