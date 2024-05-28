@@ -172,7 +172,9 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made by Harsh and Naveen © 2024 EduTech</div>
+          <div className="text-center">
+            Made by Harsh and Naveen © 2024 EduTech
+          </div>
         </div>
       </div>
     </div>

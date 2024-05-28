@@ -1,4 +1,1 @@
-# EduTech 
-# Harsh Singh & Naveen Bisht
-# We are working on this final year project
-# we completed the project
+# EduTech

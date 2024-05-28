@@ -1,5 +1,5 @@
-exports.paymentSuccess = (amount, paymentId, orderId, name,lastname) => {
-    return `<!DOCTYPE html>
+exports.paymentSuccess = (amount, paymentId, orderId, name, lastname) => {
+  return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -15,7 +15,6 @@ exports.paymentSuccess = (amount, paymentId, orderId, name,lastname) => {
                 margin: 0;
                 padding: 0;
             }
-    
     
             .container {
                 max-width: 600px;
@@ -88,4 +87,4 @@ exports.paymentSuccess = (amount, paymentId, orderId, name,lastname) => {
     </body>
     
     </html>`;
-  };
+};

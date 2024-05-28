@@ -1,5 +1,5 @@
 exports.courseEnrollmentEmail = (courseName, name) => {
-    return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -15,7 +15,6 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                 margin: 0;
                 padding: 0;
             }
-    
     
             .container {
                 max-width: 600px;
@@ -84,4 +83,4 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     </body>
     
     </html>`;
-  };
+};

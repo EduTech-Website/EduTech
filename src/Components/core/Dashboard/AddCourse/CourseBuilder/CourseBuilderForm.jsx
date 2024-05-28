@@ -46,7 +46,7 @@ const CourseBuilderForm = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    let result=null;
+    let result = null;
     setLoading(true);
     if (editSectionName) {
       result = await updateSection(
@@ -75,9 +75,8 @@ const CourseBuilderForm = () => {
     setLoading(false);
   };
 
-
-  const handelChangeEditSectionName = (sectionId,sectionName) => {
-    if (editSectionName===sectionId) {
+  const handelChangeEditSectionName = (sectionId, sectionName) => {
+    if (editSectionName === sectionId) {
       setEditSectionName(false);
       setValue("sectionName", "");
       return;
@@ -101,7 +100,9 @@ const CourseBuilderForm = () => {
           {...register("sectionName", { required: true })}
         />
         {errors.sectionName && (
-          <p className="ml-2 text-xs tracking-wide text-pink-200">This field is required</p>
+          <p className="ml-2 text-xs tracking-wide text-pink-200">
+            This field is required
+          </p>
         )}
         <div className="flex items-end gap-x-4">
           <button
@@ -127,7 +128,9 @@ const CourseBuilderForm = () => {
           )}
         </div>
       </form>
-      {course.courseContent.length > 0 && <NestedView handelChangeEditSectionName={handelChangeEditSectionName} />}
+      {course.courseContent.length > 0 && (
+        <NestedView handelChangeEditSectionName={handelChangeEditSectionName} />
+      )}
       <div className="flex justify-end gap-x-3">
         <button
           onClick={() => {
